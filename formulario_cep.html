@@ -1,0 +1,40 @@
+<html>
+    <head>
+    <title>Verificação de CEP</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+
+    <body>
+    <!-- Inicio do formulario -->
+      <form method="get" action="#">
+        <div class="quadroCEP">
+            <div>
+                <label>Cep:</label>
+                <input name="cep" type="numeric" id="cep" value="" size="8" maxlength="8"/>
+                <span id="msg_erro"></span>
+            </div>
+            <div>
+                <label>Rua:</label>
+                <input name="rua" type="text" id="rua" size="50" disabled />
+            </div>
+            <div>
+                <label>Bairro:</label>
+                <input name="bairro" type="text" id="bairro" size="40" disabled />
+            </div>        
+            <div>
+                <label>Cidade:</label>
+                <input name="cidade" type="text" id="cidade" size="40" disabled />
+            </div>
+            <div>
+                <label>Estado:</label>
+                <input name="uf" type="text" id="uf" size="2" disabled />        
+            </div>
+        </div>
+      </form>
+
+    </body>
+
+    <script src="script_cep.js"></script> 
+
+</html>

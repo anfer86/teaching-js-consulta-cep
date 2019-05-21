@@ -1,0 +1,19 @@
+#msg_erro {
+	color: red;
+	font-size: 0.8em;	
+}
+
+.quadroCEP{
+	border: 1px solid black;
+	width: 500px;
+	padding: 5px;
+}
+
+.quadroCEP div{	
+	margin-top: 5px;	
+}
+
+.quadroCEP div label{
+	width: 60px;
+	display: inline-block;
+}
