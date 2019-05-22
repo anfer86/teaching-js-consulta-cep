@@ -19,11 +19,6 @@ function isCepValido(cep){
     return regex_cepvalido.test(cep);    
 }
 
-function setVisible(name, visible){
-    var x = document.getElementById(name);
-    x.style.visibility = visible ? "visible" : 'hidden';    
-}
-
 function processarCepInvalido(){
     mostrarMsgErro("CEP Inválido");
     limpaFormularioCep();    
